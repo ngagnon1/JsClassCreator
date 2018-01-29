@@ -222,8 +222,8 @@
     return result;
   }
 
-  // Define tfc Namespace
-  g.tfc = {
+  // Define classCreator Namespace
+  g.classCreator = {
     "util": {
       "uniqid" : uniqid,
       "extend" : extend,
@@ -235,7 +235,7 @@
 }(window));
 
 /**
- * Setup additional tfc items
+ * Setup additional classCreator items
  */
 (function(t){
   var _listeners = {};
